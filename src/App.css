@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  display:flex;
+  flex-direction: row;
+}
+
+.myNotes{
+  display:flex;
+  flex-direction: column;
+  width:30%;
+  margin:auto;
+  padding-left:0;
+}
+Note{
+  padding-left:0;
+  height:40px;
+}
+.myNotes button{
+  margin-bottom:20px;
+}
+#addBtn{
+  width:30%;
+  margin:auto;
+}
+textarea{
+  width:70%;
+  height:500px;
+  border:10px solid black;
+  border-radius:10px;
+  background-color: seagreen;
+  color:white;
+  font-size: 40px;
+  font-family: "Agency FB";
+}
+
+Textarea{
+  margin:40px;
+}
+
+button{
+  color:white;
+  background-color: saddlebrown;
+  height: 50px;
+  width:70%;
+  border:none;
+}
+ul{
+  /*width:100%;*/
+  margin:0;
+  padding:5px;
+}
